@@ -32,4 +32,4 @@
 * реализовать идеи в коде
 
 
-![project image](image\\image1.png)
+![project image](image/image1.png)
