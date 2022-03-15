@@ -17,17 +17,17 @@ class MyWidget(QMainWindow, Ui_MainWindow):
 
         self.setupUi(self)
         # подгружаем изобразжения
-        self.setWindowIcon(QIcon("image\logo.png"))
-        self.pixmap = QPixmap("image\image1.png")
+        self.setWindowIcon(QIcon("image/logo.png"))
+        self.pixmap = QPixmap("image/image1.png")
         self.label_11.setPixmap(self.pixmap)
-        self.label_image_spent.setPixmap(QPixmap("image\image4.png"))
-        self.label_image_income.setPixmap(QPixmap("image\image3.png"))
-        self.label_imag_checking.setPixmap(QPixmap("image\image5.png"))
+        self.label_image_spent.setPixmap(QPixmap("image/image4.png"))
+        self.label_image_income.setPixmap(QPixmap("image/image3.png"))
+        self.label_imag_checking.setPixmap(QPixmap("image/image5.png"))
 
         # приветсвуем пользователя диалоговым окном
         hello_window = QMessageBox()
         hello_window.setWindowTitle("Home Money 1.0.beta")
-        hello_window.setWindowIcon(QIcon("image\logo.png"))
+        hello_window.setWindowIcon(QIcon("image/logo.png"))
         hello_window.setText("<p align='center'>Приветствуем в нашей домашней бухгалтерии!<br>"
                              "Если вы еще не создали ни одного счета, то надо создать новый.<br>"
                              "Создавайте доходы и расходы, смотрите аналитику</p>")
